@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="452f4791-a360-4cfd-92ec-525f0e17becd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1cqdSM5qYlsXp933vw20pCqZcWa" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="452f4791-a360-4cfd-92ec-525f0e17becd" name="Default Changelist" comment="" />
+      <created>1591260055952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591260055952</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="11" key="SettingsEditor" timestamp="1591268390263">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="141" y="11" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1591268390263" />
+    <state x="0" y="0" width="736" height="909" key="find.popup" timestamp="1591272772733">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="0" y="0" width="736" height="909" key="find.popup/0.0.1280.760@0.0.1280.760" timestamp="1591272772733" />
+    <state x="281" y="95" width="700" height="530" key="recent.locations.popup" timestamp="1591272776140">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="281" y="95" width="700" height="530" key="recent.locations.popup/0.0.1280.760@0.0.1280.760" timestamp="1591272776140" />
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup" timestamp="1591272761774">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="303" y="81" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1591272761774" />
+  </component>
+</project>

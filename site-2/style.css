@@ -1,0 +1,249 @@
+
+        /*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+        /*Конец обнуления*/
+
+
+
+
+header {
+    width: 100%;
+    background: #87509c;
+    display: flex;
+    position: relative;
+}
+.header_logo {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 56px;
+    margin-left: 12%;
+}
+nav {
+    margin-top: 56px;
+    margin-left: 50%;
+}
+.topnav a {
+    color: #fff;
+    text-align: center;
+    padding: 5px 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.topnav a:hover {
+    border: 3px solid #643a79;
+    background: #643a79;
+    border-radius: 10px;
+}
+.topnav .icon {
+    display: none;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.main_welcome{
+    background: #87509c;
+}
+.main_welcome p{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    width: 70%;
+    height: 88px;
+    margin-left: 13%;
+    margin-top: 145px;
+    color: #fff;
+    display: flex;
+}
+.main_welcome button{
+    width: 295px;
+    height: 70px;
+    background-color: #eb7d4b;
+    margin-top: 60px;
+    margin-left: 35%;
+    border-radius: 3px;
+    color: #fff;
+    font-family: "Titillium Web - Semi Bold";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 147px;
+}
+.main_welcome button:hover{
+    opacity: 0.8;
+}
+.line {
+    width: 87px;
+    height: 4px;
+    background: #14a58b;
+    position: relative;
+    left: 50%;
+    margin-left: -43.5px;
+    margin-bottom: 85px;
+    margin-top: 20px;
+
+}
+.services{
+    background: #17c2a4;
+}
+.services h2{
+    text-align: center;
+    margin-top: 120px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    text-transform: uppercase;
+}
+.services p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    color: #fff;
+    display: flex;
+    margin-bottom: 80px;
+}
+.icons{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: -50px;
+    margin-left: -10px;
+}
+.icons .services_card h3{
+    font-weight: 700;
+    line-height: 18px;
+    color: #fff;
+    margin-top: 70px;
+}
+.icons .services_card p{
+    font-size: 16px;
+    font-weight: 300;
+    width: 185px;
+    margin-bottom: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width: 1200px) {
+    nav {
+        margin-left: 35%;
+    }
+
+}
+
+
+
+@media screen and  (max-width: 1105px) {
+    nav {
+        margin-left: 20%;
+    }
+
+
+}
+
+@media screen and  (max-width: 1010px) {
+    .topnav a {
+            display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: #fff;
+        font-size: 25px;
+
+    }
+    nav {
+        width: 100%;
+
+    }
+    .topnav.responsive {
+        position: relative;
+        top: 50px;
+        left: -200px;
+        display: inline-block;
+
+    }
+    header .topnav.responsive {
+        height: 340px;
+    }
+    .topnav.responsive a.icon {
+            position: absolute;
+            float: right;
+            top: -50px;
+            left: 580%;
+    }
+    .topnav.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+
+    }
+
+
+
+
+    .icons{
+        display: flex;
+        flex-direction: column;
+    }
+    .icons p{
+        margin-left: 37%;
+    }
+}
