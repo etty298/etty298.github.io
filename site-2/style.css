@@ -87,7 +87,6 @@ main {
     font-size: 42px;
     font-weight: 700;
     width: 70%;
-    height: 88px;
     margin-left: 13%;
     margin-top: 145px;
     color: #fff;
@@ -109,7 +108,7 @@ main {
 .main_welcome button:hover{
     opacity: 0.8;
 }
-.line {
+.services .line {
     width: 87px;
     height: 4px;
     background: #14a58b;
@@ -162,6 +161,69 @@ main {
     width: 185px;
     margin-bottom: 130px;
 }
+.team{
+    background: #e7f1f8;
+}
+.team h2{
+    text-align: center;
+    margin-top: 120px;
+    color: #3c4761;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 29.91px;
+    text-transform: uppercase;
+}
+.team .line{
+    width: 87px;
+    height: 4px;
+    background: #c7d9e5;
+    position: relative;
+    left: 50%;
+    margin-left: -43.5px;
+    margin-bottom: 85px;
+    margin-top: 20px;
+}
+.team p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    color: #3c4761;
+    display: flex;
+    margin-bottom: 80px;
+}
+.photo {
+    background: #878787;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.team_cards {
+    display: flex;
+}
+.name {
+    font-size: 20px;
+    position: 16px;
+    margin-bottom: 7px;
+    margin-left: 70px;
+    color: #3b3c50;
+}
+.about_position {
+    font-size: 14px;
+    font-weight: light;
+    margin-top: 30px;
+    width: 120px;
+}
+.card .position{
+    color: #92d7f0;
+    margin-left: 110px;
+}
+.card {
+    margin: 0 20px;
+}
 
 
 
@@ -182,7 +244,7 @@ main {
 
 @media screen and  (max-width: 1200px) {
     nav {
-        margin-left: 35%;
+        margin-left: 20%;
     }
 
 }
@@ -191,7 +253,7 @@ main {
 
 @media screen and  (max-width: 1105px) {
     nav {
-        margin-left: 20%;
+        margin-left: 10%;
     }
 
 
@@ -199,7 +261,7 @@ main {
 
 @media screen and  (max-width: 1010px) {
     .topnav a {
-            display: none;
+        display: none;
     }
     .topnav a.icon {
         float: right;
@@ -207,7 +269,6 @@ main {
         display: block;
         color: #fff;
         font-size: 25px;
-
     }
     nav {
         width: 100%;
@@ -234,6 +295,10 @@ main {
             display: block;
             text-align: left;
 
+    }
+    .header_logo{
+        width: 117px;
+        height: 37px;
     }
 
 
