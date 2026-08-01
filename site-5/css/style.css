@@ -871,18 +871,52 @@ a {
 /* ===== FOOTER ===== */
 .footer {
     background: var(--black);
-    color: rgba(255, 255, 255, 0.5);
-    padding: 32px 0;
+    padding: 40px 0 24px;
     border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .footer .container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-    font-size: 13px;
+    flex-direction: column;
 }
+
+
+
+.footer-disclaimer {
+    font-size: 12px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.35);
+    max-width: 900px;
+    margin: 0;
+}
+
+.footer-notes {
+    padding-top: 16px; /* такой же отступ, как и снизу у footer-legal */
+    padding-bottom: 0;
+}
+
+.footer-notes p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.25);
+    margin: 0;
+}
+
+.footer-notes sup {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 10px;
+    margin-right: 2px;
+}
+
+
+
+@media (max-width: 768px) {
+    .footer-disclaimer {
+        font-size: 11px;
+    }
+}
+
+
 
 .footer a {
     color: rgba(255, 255, 255, 0.5);
